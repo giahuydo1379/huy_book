@@ -1,0 +1,97 @@
+%d Review(s),%d Nhận xét 
+%s Review(s),%s Nhận xét
+(Posted on %s),(Viết ngày %s)
+1 star,1 star
+2 stars,2 stars
+3 stars,3 stars
+4 stars,4 stars
+5 stars,5 stars
+"<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>","<a href=""%1$s"" onclick=""this.target=\'blank\'"">%2$s %3$s</a> <a href=""mailto:%4$s"">(%4$s)</a>"
+Add New Review,Thêm Nhận xét
+Add Your Review,Nhận xét của bạn
+Administrator,Administrator
+All Reviews,Toàn bộ Nhận xét
+All Reviews of Customer `%s`,All Reviews of Customer `%s`
+Allow Guests to Write Reviews,Allow Guests to Write Reviews
+Are you sure you want to do this?,Are you sure you want to do this?
+Are you sure?,Are you sure?
+Average Customer Rating,Average Customer Rating
+Average Customer Rating:,Average Customer Rating:
+Back,Back
+Back to Main Product Info,Quay lại trang chi tiết sản phẩm
+Back to My Reviews,Quay lại trang Nhận xét
+Back to Product Reviews,Quay lại để đánh giá sản phẩm
+Be the first to review this product,Nhận xét sản phẩm này
+Catalog Product Review View,Catalog Product Review View
+Catalog Product Reviews List,Catalog Product Reviews List
+Created On,Created On
+Customer,Customer
+Customer My Account Product Reviews,Customer My Account Product Reviews
+Customer My Account Review Details,Customer My Account Review Details
+Customer Reviews,Nhận xét của khách hàng
+Customers Reviews,Nhận xét của khách hàng
+Delete,Xóa
+Delete Review,Xóa nhận xét này
+Detailed Rating,Detailed Rating
+Edit Review '%s',Sửa nhận xét này '%s'
+Guest,Khách
+How do you rate this product?,Bạn đánh giá sản phẩm n� y như thế n� o?
+ID,ID
+Manage Ratings,Manage Ratings
+My Product Reviews,Sản phẩm đã nhận xét
+My Recent Reviews,Nhận xét gần đây
+Name,Tên
+Name in Store,Name in Store
+New Review,Nhận xét mới
+Nickname,Tên của bạn
+Nickname can\'t be empty,Nickname can\'t be empty
+"Only registered users can write reviews. Please, <a href=""%s"">log in</a> or <a href=""%s"">register</a>","Chỉ có thành viên mới có thể viết nhận xét.Vui lòng, <a href=""%s"">đăng nhập</a> hoặc <a href=""%s"">đăng kí</a>"
+Pending Reviews,Pending Reviews
+Pending Reviews of Customer `%s`,Pending Reviews of Customer `%s`
+Please select a product,Please select a product
+Please select one of each of the ratings above,Please select one of each of the ratings above
+Posted By,Posted By
+Price,Price
+Product,Product
+Product Name,Product Name
+Product Rating,Product Rating
+Product Rating:,Product Rating:
+Product Review (submitted on %s):,Product Review (submitted on %s):
+Product Reviews,Product Reviews
+Product SKU,Product SKU
+Products Reviews,Products Reviews
+Qty,Qty
+Rating:,Rating:
+Review,Review
+Review (submitted on %s):,Review (submitted on %s):
+Review Details,Đánh giá chi tiết
+Review Form Fields Before,Review Form Fields Before
+Review by <span>%s</span>,Người viết <span>%s</span>
+Review can\'t be empty,Review can\'t be empty
+Review summary can\'t be empty,Review summary can\'t be empty
+Reviews and Ratings,Reviews and Ratings
+SKU,SKU
+Save Review,Lưu nhận xét
+Status,Trạng thái
+Submit Review," ""Gửi nhận xét"""
+Summary Rating,Summary Rating
+Summary of Review,Summary of Review
+Summary of Your Review,Tiêu đề
+Title,Tiêu đề
+Type,Type
+Unable to post the review.,Unable to post the review.
+Update Status,Cập nhật trạng thái
+View All Reviews,View All Reviews
+View Details,View Details
+Visible In,Visible In
+Websites,Websites
+Write Your Own Review,Viết nhận xét của bạn về sản phẩm này
+You have submitted no reviews.,You have submitted no reviews.
+You're reviewing:,Nhận xét cho sản phẩm:
+Your Rating:,Your Rating:
+Your Review (submitted on %s):,Your Review (submitted on %s):
+Your review has been accepted for moderation.,"
+B� i đánh giá của bạn đã được chấp nhận để kiểm duyệt."
+Let us know your thoughts,Cho chúng tôi biết suy nghĩ của bạn
+Review by ,Nhận xét bởi
+What's your nickname?,Tên của bạn

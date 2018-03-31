@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Giahuy_Helloworld>
+      <active>true</active>
+      <codePool>local</codePool>
+   </Giahuy_Helloworld>
+  </modules>
+</config>

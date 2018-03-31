@@ -1,0 +1,49 @@
+ <div class="block-title">
+        <strong><span><?php echo $this->__('Vang bóng một thời') ?></span></strong>
+    </div>
+<div class="owl-carousel2 owl-theme">
+	
+	<div class="item"><img alt="" src="  <?php echo $this->getSkinUrl('images/tacgia/Vancao.jpg ') ?>" width="100%"/></div>
+    <div class="item"><img src="  <?php echo $this->getSkinUrl('images/tacgia/1.jpg') ?>" alt=""/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/04a51a8c-a985-447b-b081-135e5223f9a1.jpg') ?>"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/9_nguyenhong1726-180.jpg') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/15_nhavan1.jpg ') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/98.jpg ') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/to-hoai-d_zauj.jpg') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/Bunin_Ivan.jpg ') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/KL_2_JAUT.jpg') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/nguyen-tuan-tranh-dq-tinh.jpg') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/Nguyen_Binh.jpg') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/nguyen-huy-tuong1.jpg ') ?>" width="100%"/></div>
+    <div class="item"><img alt="" src=" <?php echo $this->getSkinUrl('images/tacgia/nha-van-vo-quang-1.jpg  ') ?>" width="100%"/></div>
+
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        jQuery('.owl-carousel2').owlCarousel({
+            autoPlay: true, //Set AutoPlay to 3 seconds
+            pagination: false,
+            navigation: true,
+
+            items: 1,
+            stopOnHover: true,
+            animateIn: 'slideInUp',
+            animateOut: 'slideOutUp',
+            slideSpeed: 450,
+            itemsDesktop: [1199, 1],
+            itemsCustom: 3,
+            itemsCustom: [
+                [0, 2],
+                [400, 1],
+                [700, 1],
+                [1000, 1],
+                [1200, 1],
+                [1600, 4]
+            ],
+
+            itemsDesktopSmall: [979, 3]
+
+        });
+    });
+</script>

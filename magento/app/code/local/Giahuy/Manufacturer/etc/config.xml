@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Giahuy_Manufacturer>
+			<version>0.1.0</version>
+		</Giahuy_Manufacturer>
+	</modules>
+	<frontend>
+		<routers>
+			<manufacturer>
+				<use>standard</use>
+				<args>
+					<module>Giahuy_Manufacturer</module>
+					<frontName>manufacturer</frontName>
+				</args>
+			</manufacturer>
+		</routers>
+		<layout>
+			<updates>
+				<manufacturer>
+					<file>manufacturer.xml</file>
+				</manufacturer>
+			</updates>
+		</layout>
+	</frontend>
+	<global>
+		<blocks>
+			<manufacturer>
+				<class>Giahuy_Manufacturer_Block</class>
+			</manufacturer>
+		</blocks>
+	</global>
+</config>

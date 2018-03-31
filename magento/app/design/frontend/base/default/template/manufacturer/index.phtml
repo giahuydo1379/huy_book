@@ -1,0 +1,8 @@
+<?php
+echo "12312312";
+
+$attribute = $this->index();
+foreach ($attribute->getSource()->getAllOption(true, true) as $instance) {
+	echo $instance ['label']. '<br>';
+}
+?>

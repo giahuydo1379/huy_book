@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Envato_WidgetLinks>
+      <version>0.0.1</version>
+    </Envato_WidgetLinks>
+  </modules>
+  <global>
+    <helpers>
+      <widgetlinks>
+        <class>Envato_WidgetLinks_Helper</class>
+      </widgetlinks>
+    </helpers>
+    <blocks>
+      <widgetlinks>
+        <class>Envato_WidgetLinks_Block</class>
+      </widgetlinks>
+    </blocks>
+    <models>
+      <widgetlinks>
+        <class>Envato_WidgetLinks_Model</class>
+      </widgetlinks>
+    </models>
+  </global>
+</config>

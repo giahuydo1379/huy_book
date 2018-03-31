@@ -1,0 +1,13 @@
+a:5:{i:0;s:33:"String could not be parsed as XML";i:1;s:1889:"#0 C:\xampp\htdocs\magento\app\code\community\TM\FacebookLB\Adminhtml\Model\System\Config\Source\Lang.php(7): SimpleXMLElement->__construct('http://facebook...', 0, true)
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\System\Config\Form.php(463): TM_FacebookLB_Adminhtml_Model_System_Config_Source_Lang->toOptionArray(false)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\System\Config\Form.php(229): Mage_Adminhtml_Block_System_Config_Form->initFields(Object(Varien_Data_Form_Element_Fieldset), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\System\Config\Form.php(164): Mage_Adminhtml_Block_System_Config_Form->_initGroup(Object(Varien_Data_Form), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Block\System\Config\Edit.php(92): Mage_Adminhtml_Block_System_Config_Form->initForm()
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\System\ConfigController.php(107): Mage_Adminhtml_Block_System_Config_Edit->initForm()
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_System_ConfigController->editAction()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#12 {main}";s:3:"url";s:127:"/magento/index.php/admin/system_config/edit/section/facebooklb/website/base/key/5286e292205ba9e8c5e4fdbf1f45e42b/css/styles.css";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:5:"admin";}

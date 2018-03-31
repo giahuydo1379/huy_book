@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<widgets>
+  <showproduct_links type="showproduct/links" translate="name description" module="showproduct">
+    <name>Showproduct</name>
+    <description>Allows to add Print and Inquiry link options</description>
+    <parameters>
+      <Limit>
+        <label>Limit</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Limit>
+	  
+	   <Minprice>
+        <label>Minprice</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Minprice>
+	  
+	  <Maxprice>
+        <label>Maxprice</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Maxprice>
+	  
+	  <Category>
+        <label>Category</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>select</type>
+		<source_model>showproduct/options2</source_model>
+      </Category>
+	  
+	  <Enable_Disable>
+        <label>Enable/Disable</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>select</type>
+		<source_model>adminhtml/system_config_source_enabledisable</source_model>
+      </Enable_Disable>
+	  <template>
+                <required>1</required>
+                <visible>1</visible>
+                <label>Template</label>
+                <type>select</type>
+                <value>reports/product/widget/viewed_grid.phtml</value>
+                <values>
+                    <default translate="label">
+                        <value>showproduct/widget/viewed_grid.phtml</value>
+                        <label>Viewed Products Grid Template</label>
+                    </default>
+					 <new_grid translate="label">
+                        <value>showproduct/widget/viewed_grid_2.phtml</value>
+                        <label>Viewed Products Grid 2 Template</label>
+                    </new_grid>
+					
+					
+                    <list translate="label">
+                        <value>showproduct/widget/viewed_list.phtml</value>
+                        <label>Viewed Products List Template</label>
+                    </list>
+                </values>
+         </template>
+	  
+    </parameters>
+  </showproduct_links>
+</widgets>

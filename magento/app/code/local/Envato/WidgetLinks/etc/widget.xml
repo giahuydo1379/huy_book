@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<widgets>
+  <widgetlinks_links type="widgetlinks/links" translate="name description" module="widgetlinks">
+    <name>Print and Inquiry Options</name>
+    <description>Allows to add Print and Inquiry link options</description>
+    <parameters>
+      <Limit>
+        <label>Limit</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Limit>
+	  
+	   <Minprice>
+        <label>Minprice</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Minprice>
+	  
+	  <Maxprice>
+        <label>Maxprice</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>text</type>
+      </Maxprice>
+	  
+	  <Category>
+        <label>Category</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>select</type>
+		<source_model>widgetlinks/options2</source_model>
+      </Category>
+	  
+	  <Enable_Disable>
+        <label>Enable/Disable</label>
+        <visible>1</visible>
+        <required>0</required>
+        <type>select</type>
+		<source_model>adminhtml/system_config_source_enabledisable</source_model>
+      </Enable_Disable>
+	  
+    </parameters>
+  </widgetlinks_links>
+</widgets>

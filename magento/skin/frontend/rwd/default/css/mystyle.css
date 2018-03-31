@@ -1,0 +1,27 @@
+@media only screen and (min-width: 480px) {
+.mycustomproduct >.products-grid > li {
+    width: 20%;
+    margin-right: 3.7037%;
+  }
+.mycustomproduct >.products-grid > li:nth-child(3n+1) {
+    clear: none;
+}
+.mycustomproduct >.products-grid .product-name {
+  margin-bottom:60px;
+}
+.mycustomproduct >
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+.mycustomproduct >.products-grid .price-box {
+  margin: -42px 0 5px;
+}
+}

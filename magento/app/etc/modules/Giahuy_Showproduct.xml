@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Giahuy_Showproduct>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Giahuy_Showproduct>
+	</modules>
+</config>

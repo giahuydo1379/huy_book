@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+         <Giahuy_Showproduct>
+            <version>0.1.0</version>
+         </Giahuy_Showproduct>
+    </modules>
+     <frontend>
+         <routers>
+             <showproduct>
+                 <use>standard</use>
+                  <args>
+                     <module>Giahuy_Showproduct</module>
+                    <frontName>showproduct</frontName>
+                 </args>
+             </showproduct>
+         </routers>
+         <layout>
+             <updates>
+                 <showproduct>
+                     <file>showproduct.xml</file>
+                 </showproduct>
+             </updates>
+         </layout>
+     </frontend>
+     <global>
+         <blocks>
+             <showproduct>
+                 <class>Giahuy_Showproduct_Block</class>
+            </showproduct>
+         </blocks>
+		
+		<models>
+			<showproduct>
+				<class>Giahuy_Showproduct_Model</class>
+			</showproduct>
+		</models>
+		
+		<helpers>
+			<showproduct>
+				<class>Giahuy_Showproduct_Helper</class>
+			</showproduct>
+		</helpers>
+     </global>
+	 <default>
+        <tab1>
+            <general>
+                <text_field>Default value</text_field>
+                <textarea></textarea>
+                <dropdown>key2</dropdown>
+                <multiple_dropdown>key1,key2</multiple_dropdown>
+                <time>11,30,45</time>
+                <active>0</active>
+                <boolean>1</boolean>
+                <dependant_text_field>Default value</dependant_text_field>
+            </general>
+        </tab1>
+    </default>
+</config>

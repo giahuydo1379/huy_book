@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+         <Giahuy_Sachnendoc>
+            <version>0.1.0</version>
+         </Giahuy_Sachnendoc>
+    </modules>
+     <frontend>
+         <routers>
+             <sachnendoc>
+                 <use>standard</use>
+                  <args>
+                     <module>Giahuy_Sachnendoc</module>
+                    <frontName>sachnendoc</frontName>
+                 </args>
+             </sachnendoc>
+         </routers>
+         <layout>
+             <updates>
+                 <sachnendoc>
+                     <file>sachnendoc.xml</file>
+                 </sachnendoc>
+             </updates>
+         </layout>
+     </frontend>
+     <global>
+         <blocks>
+             <sachnendoc>
+                 <class>Giahuy_Sachnendoc_Block</class>
+            </sachnendoc>
+         </blocks>
+		
+		<models>
+			<sachnendoc>
+				<class>Giahuy_Sachnendoc_Model</class>
+			</sachnendoc>
+		</models>
+		
+		<helpers>
+			<sachnendoc>
+				<class>Giahuy_Sachnendoc_Helper</class>
+			</sachnendoc>
+		</helpers>
+     </global>
+	 <default>
+        <tab1>
+            <general>
+                <text_field>Default value</text_field>
+                <textarea></textarea>
+                <dropdown>key2</dropdown>
+                <multiple_dropdown>key1,key2</multiple_dropdown>
+                <time>11,30,45</time>
+                <active>0</active>
+                <boolean>1</boolean>
+                <dependant_text_field>Default value</dependant_text_field>
+            </general>
+        </tab1>
+    </default>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Envato_WidgetLinks>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Envato_WidgetLinks>
+  </modules>
+</config>
